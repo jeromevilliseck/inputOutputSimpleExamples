@@ -1,0 +1,44 @@
+#ignore dependency caches
+/node_modules
+/packages
+!.mvn/wrapper/maven-wrapper.jar
+#ignore the compiled code
+*.o
+*.pyc
+*.class
+#ignore build output directories
+/bin
+/out
+/target
+#ignore the files generated at runtime
+*.log
+*.lock
+*.tmp
+#ignore hidden system files
+.DS_Store
+Thumbs.db
+#ignore all Intellij IDE configuration files
+*.iml
+.idea
+**/idea
+*.idea
+*.iws
+*.ipr
+#ignore all logs
+**/logs
+.metadata
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
